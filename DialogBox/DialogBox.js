@@ -207,7 +207,7 @@ define(["qlik", "./getMasterItems", "css!./style.css"], function (qlik, getMaste
 					$("#para-" + layoutid).show().css("height",Paragraphheight+"px").html(Paragraph);
 				}
 				app.getObject('cont-' + layoutid, obj).then(function (modal) {
-					qlik.resize(this);
+					//qlik.resize(this);
 					// export data excel
 					//console.log(modal);
 					//var qTable = qlik.table(modal);
